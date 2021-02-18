@@ -20,4 +20,11 @@ Declaration : Sebuah bagian dari rule, yang terdiri dari pasangan properti dan n
 External Style Sheet : Berkas terpisah yang di dalamnya hanya terdapat sebuah rules yang akan digunakan pada website.
 Embedded Style Sheet : Kumpulan rules yang dituliskan dalam berkas HTML dengan menggunakan elemen <style>.
 Inline Style : styling yang diterapkan pada elemen HTML dengan menggunakan atribut style.
+
+Type of basic selector :
+Type Selector
+Class Selector
+ID Selector
+Attribute Selector
+Universal Selector
 */
