@@ -5,6 +5,7 @@
    <title>Div Element</title>
    <style>
        .shadowbox {
+           border-radius: 1px 10px 1px 10px;
            width: 15em;
            border: 1px solid #333;
            box-shadow: 8px 8px 5px #444;
@@ -19,11 +20,25 @@
         .bahan {
             color: red;
         }
+
+        .navbar li{
+            display: inline;
+            margin-left: 5px;
+        }
+
 </style>
    </style>
 </head>
  
 <body>
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>Product</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
    <div class="shadowbox">
        <p>Paragraf ini berada di dalam elemen div, 
            namun akan ditampilkan sama seperti paragraf biasanya. 
