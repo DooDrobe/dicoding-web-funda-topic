@@ -20,10 +20,14 @@ main{
     color: white;
 }
 
-
+header {
+    display: inline;
+ }
 nav{
     background-color: #173f5f;
     padding: 5px;
+    position: sticky;
+    top: 0;
 }
 nav a{
     font-size: 18px;
