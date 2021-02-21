@@ -52,6 +52,7 @@ h2,h3{
     width: 200px;
  }
 
+
  #content{
     float: left;
     width: 75%;
@@ -69,7 +70,12 @@ aside{
     width: 24%;
     
 }
-
+@media screen and (max-width: 1200px) {
+    #content,aside{
+        width: 100%;
+        padding: 0;
+    }
+ }
 .card{
     box-shadow: 3px 4px 16px -1px rgba(0,0,0,0.75);
     border-radius: 5px;
